@@ -19,7 +19,6 @@
 .inner {
   width: 960px;
   margin: 0 auto;
-  // outline: dotted 5px orange;
 }
 
 .inner img {
@@ -28,20 +27,19 @@
   margin-right: 30px;
 }
 
-header ul li {
+.calculator_header  ul li {
   display: inline-block;
   margin-top: 43px;
   margin-right: 90px;
   font-size: 18px;
 }
 
-main {
+.calculator main {
   width: 960px;
   margin: 30px auto;
-  // outline: dotted 5px orange;
 }
 
-button {
+.calculator button {
   margin-top: 20px;
   border: none;
   padding: 10px 35px;
@@ -53,13 +51,7 @@ button {
   transition: 350ms all;
 }
 
-button:hover {
+.calculator button:hover {
   background: #444;
   color: #000;
-}
-
-footer {
-  height: 150px;
-  background: #888;
-  clear: both;
 }
