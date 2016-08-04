@@ -1,13 +1,8 @@
 /* global styles */
 
-body {
+.inner li a {
   font-family: helvetica;
   color: #222;
-}
-
-a {
-  text-decoration: none;
-  color: #888;
 }
 
 .clearfix {
@@ -16,7 +11,7 @@ a {
 
 /* site styles */
 
-header {
+.calculator_header {
   background: #444;
   height: 100px;
 }
@@ -44,42 +39,6 @@ main {
   width: 960px;
   margin: 30px auto;
   // outline: dotted 5px orange;
-}
-
-.sub_banners li {
-  float: left;
-  margin: 30px 30px 30px 0; /* TRBL */
-}
-
-.sub_banners li:last-child {
-  margin-right: 0px;
-}
-
-.featured_section img {
-  float: left;
-  margin-bottom: 30px;
-  // outline: dotted 5px orange;
-}
-
-.right {
-  float: left;
-  height: 400px;
-  // outline: dotted 5px green;
-  width: calc(50% - 30px);
-  padding-left: 30px;
-}
-
-.right h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.right p {
-  // outline: dotted 1px blue;
-  height: 300px;
-  line-height: 24px;
-  overflow: auto;
 }
 
 button {
