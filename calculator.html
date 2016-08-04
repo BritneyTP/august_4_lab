@@ -16,7 +16,18 @@
       </div>
     </header>
     <main class="calculator">
-
+      <form name="converter">
+        <input type="number" name="input" id="input" required/>
+        <select name="select">
+          <option value="inches_centimeters">Inches/Centimeters</option>
+          <option value="inches_centimeters">Ounces/Millileters</option>
+          <option value="inches_centimeters">Miles/Kilometers</option>
+          <option value="inches_centimeters">Pounds/Kilograms</option>
+          <option value="inches_centimeters">English Ton/Metric Ton</option>
+        </select>
+        <button type="button" id="button">Convert</button>
+        <p class="results" id="results"></p>
+      </form>
     </main>
     <script src="js/app.js"></script>
   </body>
