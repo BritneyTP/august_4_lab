@@ -2,12 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
     <title> WEATHER FORECAST</title>
+  </head>
+
 <header>
   <div class="top">
-    <img src="header_noaa.jpg">
-    <img src="header_news.jpg">
-    <img src="header_doc.jpg">
+    <ul class="imgList">
+    <li><img src="images/header_noaa.jpg"></li>
+    <li><img src="images/header_nws.jpg"></li>
+    <li><img src="images/header_doc.jpg"></li>
+  </ul>
   </div>
   <div class="nav">
     <ul>
@@ -25,8 +30,8 @@
 
 <main>
   <div class="Search">
-    <button></button>
-    <button>Go</button>
+    <button id="blank"></button>
+    <button id="go">Go</button>
     <a href="#">View Location Examples</a>
     <h3> Your local forecast office is </h3>
     <a href="#">Seattle, WA</a>
@@ -45,4 +50,5 @@
     <a href="#">Read More...</a>
 
   </main>
+
 </html>

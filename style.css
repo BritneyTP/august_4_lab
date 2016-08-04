@@ -1,0 +1,30 @@
+.nav ul li{
+  display: inline-block;
+  margin-right:40px;
+  margin-top: 18px;
+
+}
+
+.top{
+  margin: 0 auto;
+  width:1200px;
+  border:dotted 5px orange;
+  height:75px;
+}
+.nav{
+  background: #dcdcc6;
+  width:1200px;
+  height:50px;
+  margin: 0 auto;
+}
+.imgList li:last-child{
+  margin-right: 0px;
+}
+.Search{
+  border:dotted 5px green;
+  width:1200px;
+  margin:0 auto;
+}
+.imgList ul{
+  display:inline-block;
+}
